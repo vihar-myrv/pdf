@@ -1,0 +1,97 @@
+
+button {
+  height: 50px;
+  width: 10%;
+  background-color: #DC143C;
+  color: #fefbef;
+  font-size: 16px;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.company {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.companyName > p {
+  line-height: 2px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.companyLogo > div {
+  height: 200px;
+}
+
+.additionalInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.info {
+  border: 2px solid black;
+  width: 40%;
+  height: 200px;
+  line-height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainTable {
+  width: 100%;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.line {
+  border-bottom: 2px solid black;
+}
+
+.bottomborder {
+  border-bottom: 2px dashed black;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -15px;
+}
+
+.billingTable > tbody > tr > td {
+  text-align: left;
+  padding: 10px;
+}
+
+.hollowbox {
+  border: 1px solid grey;
+  height: 2rem;
+}
+
+
+.signDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.signDateDiv {
+  display: flex;
+  align-items: baseline;
+}
+
+.dashedLine {
+  border-bottom: 2px dashed black;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
